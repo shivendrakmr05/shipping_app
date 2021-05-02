@@ -61,6 +61,7 @@ body {
                 
                 <div class="row">
                     <div class="col-4">
+                    <label>Admin? Click <a href="adminlogin.php">Here</a> to login</label>
                         <div class="mb-3">
                             <input id="user_id" name="user_id" type="number" class="form-control" placeholder="Enter UserID">
                         </div>

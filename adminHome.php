@@ -90,28 +90,27 @@
     <div class="col-sm-4">
         <div class="card">
         <div class="card-body">
-            <h5 class="card-title">Don't have a port?</h5>
-            <p class="card-text">Click here to submit a request for the port.</p>
-            <a href="#" class="btn btn-primary">Request</a>
+            <h5 class="card-title">Request Status Table</h5>
+            <a href="#" class="btn btn-primary">Requests</a>
         </div>
         </div>
     </div>
     <div class="col-sm-4">
         <div class="card">
             <div class="card-body">
-                <h5 class="card-title">Your monthly reports!</h5>
-                <p class="card-text">Click here to find out your monthly reports </p>
-                <a href="#" class="btn btn-primary">Report</a>
+                <h5 class="card-title">Monthly Report Table</h5>
+                <a href="#" class="btn btn-primary">Reports</a>
             </div>
-        </div>
+        </div> 
+    
     </div>
         <div class="col-sm-4">
             <div class="card">
             <div class="card-body">
-                <h5 class="card-title">Your Ship Status!</h5>
-                <p class="card-text">Click here to find out your ship's status </p>
-                <a href="#" class="btn btn-primary">Ship Status</a> 
-    </div>
+                <h5 class="card-title">Update Ship Status</h5>
+                <a href="#" class="btn btn-primary">Ship Status</a>       
+        </div>
+        </div>
     </div>
 </div>
 </body>
