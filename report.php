@@ -1,3 +1,22 @@
+<style>
+table {
+  border-collapse: collapse;
+  width: 80%;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+  background-color: #4CAF50;
+  color: white;
+}
+</style>
+
 
 <?php
 $servername = "us-cdbr-east-03.cleardb.com";
@@ -11,8 +30,8 @@ $startdate = $_POST["startdate"];
 $enddate = $_POST["enddate"];
 
 
-echo "Start Date: ".$startdate."<br>";
-echo "End Date: ".$enddate."<br>";
+echo "<h3> Start Date: ".$startdate." </h3>";
+echo "<h3> End Date: ".$enddate."</h3>";
 
 
 if ($conn->connect_error){
@@ -28,13 +47,13 @@ $sql = "select c.Id as Id,c.Name as Name,Port_Number,count(*) as Total_ships,sum
             group by c.Id,c.Name,Port_number; ";
 
 
-
+echo "<h4> Port Report </h4>";
 //$sql = "select * from country";
 
 echo "<table border='1'>
     <tr>
     <th>Country ID</th>
-		<th>Country Name</th>
+		<th>Ship Owner</th>
     <th>Port Number</th>
     <th>Total Ships</th>
 		<th>Total Containers</th>
