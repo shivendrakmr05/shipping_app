@@ -5,8 +5,8 @@
 		.centered {
   transform: translate(65%, 90%);
 }
-body { 
-  background: url(images/home.jpeg) no-repeat center center fixed; 
+body {
+  background: url(images/home.jpeg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -38,30 +38,30 @@ body {
 
 
 
-                  <!-- <table width = "400" border =" 0" cellspacing = "1" 
+                  <!-- <table width = "400" border =" 0" cellspacing = "1"
                      cellpadding = "2">
-                  
+
                      <tr>
                         <td width = "100">User_ID</td>
-                        <td><input name = "user_id" type = "number" 
+                        <td><input name = "user_id" type = "number"
                            id = "user_id"></td>
                      </tr>
 
                      <tr>
                         <td width = "100">Name</td>
-                        <td><input name = "name" type = "text" 
+                        <td><input name = "name" type = "text"
                            id = "name"></td>
                      </tr>
-                  
+
                      <tr>
                         <td width = "100">Email</td>
-                        <td><input name = "email" type = "text" 
+                        <td><input name = "email" type = "text"
                            id = "email"></td>
                      </tr>
 
                      <tr>
                         <td width = "100">Password</td>
-                        <td><input name = "password" type = "password" 
+                        <td><input name = "password" type = "password"
                            id = "password"></td>
                      </tr>
 
@@ -69,15 +69,15 @@ body {
                         <td width = "100"> </td>
                         <td> </td>
                      </tr>
-                  
+
                      <tr>
                         <td width = "100"> </td>
                         <td>
-                           <input name = "update" type = "submit" 
+                           <input name = "update" type = "submit"
                               id = "update" value = "Update">
                         </td>
                      </tr>
-                  
+
                   </table> -->
                </form>
 

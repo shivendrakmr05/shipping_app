@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
 	<title></title>
 	<style>
@@ -52,7 +51,7 @@
             <ul class="navbar-nav">
               <li class="nav-item active">
                 <a class="nav-link" href="#">
-                  Home 
+                  Home
                 </a>
               </li>
               <li class="nav-item">
@@ -101,7 +100,7 @@
             <div class="card-body">
                 <h5 class="card-title">Your monthly reports!</h5>
                 <p class="card-text">Click here to find out your monthly reports </p>
-                <a href="#" class="btn btn-primary">Report</a>
+                <a href="report_req.php" class="btn btn-primary">Report</a>
             </div>
         </div>
     </div>
@@ -110,7 +109,7 @@
             <div class="card-body">
                 <h5 class="card-title">Your Ship Status!</h5>
                 <p class="card-text">Click here to find out your ship's status </p>
-                <a href="#" class="btn btn-primary">Ship Status</a> 
+                <a href="#" class="btn btn-primary">Ship Status</a>
     </div>
     </div>
 </div>
